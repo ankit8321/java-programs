@@ -1,3 +1,6 @@
+//To do sum,multiple,divide using scanner
+
+
 import java.util.*;
 public class java5
 {
