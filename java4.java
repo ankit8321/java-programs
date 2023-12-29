@@ -6,7 +6,8 @@ public class java4
 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
+       try (Scanner sc = new Scanner(System.in))
+       {
 //  next() takes input without
         String input=sc.next();
         System.out.println(input);
@@ -24,7 +25,7 @@ public class java4
         System.out.println(point);
 
 
-
+       }
 
 
     }
