@@ -2,7 +2,7 @@
 1.Primitive  
 .byte      1 Bytes
 .short     2 Bytes
-.char      2 Bytes
+.char      2 Bytes 
 .boolean   1 Bytes
 .int       4 Bytes
 .long      8 Bytes
