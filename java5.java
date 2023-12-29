@@ -39,7 +39,7 @@ public static void main(String args[])
     System.out.println("The area of circle is"+area);
 }
 
-//Sum of two numbers
+
 
 
 }
