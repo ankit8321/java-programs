@@ -22,11 +22,11 @@ public static void main(String args[])
 
         BINARY OPERATORS         UNARY OPERATORS
 
-        +                        ++       
-        -                        --
-        *
-        /
-        %
+        1. +                     1. ++       
+        2. -                     2. --
+        3. *
+        4. /
+        5. %
        
        
         #                                               Arithematic Operators                                                          # 
@@ -72,12 +72,12 @@ System.out.println("The divison of two number is "+i);
 
 
 /*                                                             Relational Operators
-==  :- equal
-not :- not equal to (inequality)
->   :- greater than 
->   :- less than
->=  :- greater than equal to
-<=  :- less than equal to
+1. ==  :- equal
+2. !=  :- not equal to (inequality)
+3. >   :- greater than 
+4. >   :- less than
+5. >=  :- greater than equal to
+6. <=  :- less than equal to
 */
 int a2=5;
 int b2=7;
@@ -88,9 +88,9 @@ System.out.println(a==b);
 /*                                                             Logical  Operators
 
 
-"&&"=Logical Operator
-"||"=Logical Or
-"!" =Logical not
+1. "&&"=Logical Operator
+2. "||"=Logical Or
+3"!" =Logical not
 
 */
 System.out.println(3>2&&3<5);
