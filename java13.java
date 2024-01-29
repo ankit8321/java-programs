@@ -19,11 +19,13 @@ public class java13
         */
         
       //* CHECK IF A STUDENT WILL PASS OR FAIL
-      Scanner sc=new Scanner(System.in);
+      try(Scanner sc=new Scanner(System.in))
+      {
       System.out.println("Enter your marks");
       int marks=sc.nextInt();
       String result=(marks>=33)?"pass":"Fail";
       System.out.println("Your result status: "+result);
+    }
 
 
 
