@@ -28,6 +28,7 @@ public class java25 {
  * & Summary of this code
  * ? "starting from the main,the binomial method is called.After calling the
  * binomial
+ * 
  * ? method the value of n and r will be 5 and 3 respectively.
  * ? factorial method will be called passing the value of n and r to num
  * individually"
