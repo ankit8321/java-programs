@@ -1,26 +1,29 @@
+
+// * Adding element in a given position
 import java.util.*;
 
 public class java39 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int no = 5;
-        int array[] = new int[no + 1];
-
-        System.out.println("Enter the elemnts of the array");
-        for (int i = 0; i < no; i++)
-            array[i] = sc.nextInt();
-        System.out.println("Enter the position ");
-        int m = sc.nextInt();
-        System.out.println("Enter the elemnt to be inserted");
-        int n = sc.nextInt();
-        System.out.println("The new array");
-        for (int i = no; i > m; i--) {
-            array[i] = array[i - 1];
+        System.out.println("Enter the size of the array");
+        int no = sc.nextInt();
+        int arr[] = new int[no + 1];
+        System.out.println("Enter the elements of the array");
+        for (int i = 0; i < no; i++) {
+            arr[i] = sc.nextInt();
         }
-        array[m] = n;
+        System.out.println("Enter the position where the element to be inserted");
+        int pos = sc.nextInt();
+        System.out.println("Enter the elemnted which is to be inserted");
+        int ele = sc.nextInt();
+        System.out.println("The new array will be");
+        for (int i = no; i > pos; i--) {
+            arr[i] = arr[i - 1];
+        }
+        arr[pos] = ele;
         no++;
         for (int i = 0; i < no; i++) {
-            System.out.print(array[i]);
+            System.out.println(arr[i]);
         }
 
     }
