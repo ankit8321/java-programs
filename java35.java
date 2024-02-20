@@ -5,7 +5,7 @@ import java.util.*;
 public class java35 {
     // public static int[] func(int a[], int largest)// & Function with better
     // Approach
-    // Approach
+
     // {
     // for (int i = 1; i < a.length; i++) {
     // if (largest < a[i])

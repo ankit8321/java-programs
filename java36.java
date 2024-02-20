@@ -16,7 +16,7 @@ public class java36 {
                     break;
             }
             System.out.println();
-            for (int j = array.length - 1; j >= 0; j--) {
+            for (int j = arr.length - 1; j >= 0; j--) {
                 System.out.print(arr[j]);
                 if (j == 0)
                     break;

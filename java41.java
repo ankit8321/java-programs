@@ -1,21 +1,34 @@
-
-// * String in java 
-import java.util.*;
+import java.util.Scanner;
 
 public class java41 {
-    public static void main(String argsp[]) {
-        Scanner sc = new Scanner(System.in);
-        // System.out.println("Enter any string");
-        // String abc = sc.nextLine();
-        // System.out.println("My name is " + abc);
+    // arr[2,4,6,8,10,12,14]
+    // 0,1,2,3,4,5,6,7,8
+    public static int func(int arr[], int ele) {
+        int start = 0, end = arr.length - 1;
 
-        // & Concatenation in java
-        System.out.println("Enter the first name");
-        String first = sc.nextLine();
-        System.out.println("Enter the second name");
-        String second = sc.nextLine();
-        String third = first + second;
-        System.out.println("Full name is " + third);
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            if (arr[mid] == ele) {
+                return mid;
+            }
+            if (arr[mid] < ele) {
+                start = mid + 1;
+            } else
+                end = mid - 1;
+
+        }
+        return -1;
 
     }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int arr[] = { 2, 4, 6, 8, 10, 12, 14 };
+        System.out.println("Enter the elemnet to be search");
+        int ele = sc.nextInt();
+        int found = func(arr, ele);
+        System.out.println("The element found is " + found);
+
+    }
+
 }

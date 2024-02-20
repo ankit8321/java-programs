@@ -22,11 +22,11 @@ public class java32 {
         }
         System.out.println("Enter the elemnt to be searched");
         int search = sc.nextInt();
-        int index = func(num, search);
-        if (index == -1)
+        int no = func(num, search);
+        if (no == -1)
             System.out.println("Number not Found");
         else
-            System.out.println("Number found at " + index);
+            System.out.println("Number found at " + no);
 
     }
 }
